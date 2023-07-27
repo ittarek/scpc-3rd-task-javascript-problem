@@ -77,7 +77,7 @@ return ("The closest pair is " + arr[res_l] + " and " + arr[res_r]);
 let arr2 = [10, 22, 28, 29, 30, 40];
 let x = 54;
 let n = arr2.length;
-console.log("close",printClosest(arr2, n, x));
+// console.log("close",printClosest(arr2, n, x));
 
 //Task 5: Implement a simple JavaScript calculator. The calculator should take two numbers and an operator (+, -, *, /) as input and return the result of the operation.
 
