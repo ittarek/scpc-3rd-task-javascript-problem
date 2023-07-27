@@ -3,11 +3,11 @@ Task 1 : Create a function that takes a string as input and returns the reversed
 */
 
 const reverseString = (str) => {
-  let reversString = "";
+  let result = "";
   for (let i = str.length - 1; i >= 0; i--) {
-    reversString += str[i];
+    result += str[i];
   }
-  return reversString;
+  return result;
 };
 
 // console.log(reverseString("olleh"));
@@ -47,8 +47,8 @@ const frequentElement = (arr) => {
   }
   return maxElement;
 };
-// const arr = [2, 2, 2, 2, 20, 1, 5, 6, 8];
-// console.log(frequentElement(arr));
+// const arr1 = [2, 2, 2, 2, 20, 1, 5, 6, 8];
+// console.log(frequentElement(arr1));
 
 //Task 4: Create a function that takes a sorted array of numbers and a target value as input. The function should find two numbers in the array that add up to the target value. Return an array containing the indices of the two numbers.
 
@@ -71,13 +71,13 @@ const printClosest = (arr, n, x) => {
     }
   }
 
-  // console.log("The closest pair is " + arr[res_l] + " and " + arr[res_r]);
+return ("The closest pair is " + arr[res_l] + " and " + arr[res_r]);
 };
 
-let arr = [10, 22, 28, 29, 30, 40];
+let arr2 = [10, 22, 28, 29, 30, 40];
 let x = 54;
-let n = arr.length;
-printClosest(arr, n, x);
+let n = arr2.length;
+console.log("close",printClosest(arr2, n, x));
 
 //Task 5: Implement a simple JavaScript calculator. The calculator should take two numbers and an operator (+, -, *, /) as input and return the result of the operation.
 
